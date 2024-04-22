@@ -1,0 +1,442 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+	font-family:'poppins',sans-serif;
+	scroll-behavior: smooth; 
+}
+p{
+	font-weight: normal;/*300;*/
+	color:black;/*#1111;*/
+}
+header/* entete de la page*/
+{
+	/*background-color: orange;*/
+	position: fixed;
+	top: 0%;
+	left:0%;
+	padding: 20px;
+	width: 100%;
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    transition: 0,5s;
+    background-color: rgba(255, 255, 255,0.5);
+    
+
+    
+}
+.logo
+{
+
+}
+.menu li
+{
+	list-style: none;
+	display:inline-block;/* Pour alligner les liens sur la meme ligne*/
+}
+.menu a
+{
+	
+	color: black;
+	text-decoration: none;
+	margin-left: 30px;
+	font-weight: 700;
+
+}
+li :hover
+{/* Pour flotter sur les liens*/
+	color:#ffcc00;
+	/*border-bottom: 1px solid green;*/
+	
+
+}
+li span
+{
+	color: #e6b800;
+	font-size: 1.5em;
+	font-weight: 700px;
+
+
+
+}
+.submenu /* menus de la page produit*/
+{  
+
+	width: 170px;
+	/*text-align: center;*/
+}
+.submenu ul a
+{
+	display: block;    				 
+	color:black;
+	text-align: center;
+	padding:5px;
+	margin:0px;
+}
+.submenu ul a:hover
+{
+	
+	background-color:rgb(255, 204, 0.5);/*#ffcc00;*/
+	border-bottom: 2px solid;
+}
+.submenu ul li
+{
+
+	display: none;
+	background-color:rgb(153, 204, 0,0.5);/*rgb(255, 255, 255)rgb(234, 234, 225) rgb(204, 204, 179);*/
+	
+}
+.submenu:hover ul li
+{
+
+	display:block;	
+}
+
+
+.banniere
+{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-image: url(img/banniere2.jpg); 
+	background-size:cover; 
+
+}
+
+/* bannierre de la page accueil*/
+.banniere .contenu
+{
+	max-width:60%;
+	margin: auto;
+	text-align: center;
+}
+
+.banniere .contenu h2
+{
+  color:black;
+  font-size: 2em;
+  text-transform: capitalize; 
+}
+.contenu span
+{
+	
+	text-transform: uppercase;
+	display: block;
+
+}
+.text1
+{
+	color:black;
+	font-weight: 700;
+	letter-spacing: 8px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background-color:rgb(153, 204, 0,0.5); /*black;*/
+	position: relative;
+	animation: text 3s 1;
+	font-family:forte; 
+
+
+}
+
+.text2
+{
+	font-family: forte;
+	color:black;         /*#1a0d00*/;  
+
+}
+
+@keyframes text{
+	0%{
+		color: black;
+		margin-bottom: -40px;
+		background-color:#669900;;
+	}
+	30%{
+		letter-spacing: 25px;
+		margin-bottom: -40px;
+		background-color:#669900;
+	}
+	85%{
+		letter-spacing: 8px;
+		margin-bottom: -40px;
+		background-color:#669900;
+
+	}
+
+}
+
+.section
+{
+	padding: 100px;
+	 
+}
+.row{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	background-color:#ccffcc;
+	
+}
+.row .col50
+{
+	position: relative;
+	width: 40%;
+	margin-top:10%;
+	margin-left: 5%;
+	justify-content: center;
+	align-items: center;
+
+}
+.row .col50 h2
+{
+	margin-bottom: 20px;
+	font-family:Bookman old style;
+}
+.row .col50 p
+{
+	font-family:Bookman old style;/* verdana;*/
+}
+
+
+
+.titre
+{
+	color: black;
+	font-size: 2em;
+	font-weight: 300px;
+	text-transform: capitalize;
+}
+.titre span
+{
+	color: #e6b800;
+	font-size: 1.5em;
+	font-weight: 700px;
+}
+.row .col50 img
+{
+	height:359px;
+	width: 500px;
+	position: relative; 
+
+}
+.produits
+{
+ background-color: #ecd9c6/*#ffdd99;*/
+}
+.titre
+{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;	
+}
+.avant-titre p
+{
+
+margin-left: 200px;	
+margin-bottom: 20px;
+
+}
+
+.contenant
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+
+}
+ .contenant .ruche
+{
+	/*width: 350px;*/
+	margin-top: 20px;
+	border: 15px solid white;
+	box-shadow: 20px 15px 35px rgba(0,0,0,0.8);
+}
+.contenant .ruche .imruche
+{
+	position: relative;
+	/*width: 100%;
+	height: 300px;*/
+
+}
+
+.contnu .ruche .imruche img
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+.text
+{
+	text-align: center;
+	font-weight: 300px;
+
+}
+.espaceMenu
+{
+
+margin-top: 60px;
+ margin-bottom: 70px;
+}
+
+
+.conteneur
+{
+	display: flex;
+	justify-content: center;
+	/*flex-wrap: wrap;*/
+	margin-top: 40px;
+	width: 90%;
+	align-items: center;
+	flex-direction: row;
+	margin-left:50px;
+
+}
+.conteneur .ruche
+{
+	/*margin-top: 20px;*/
+	background: #fff;
+	/*border: 15px solid white;*/
+	/*box-shadow: 20px 15px 35px rgba(0,0,0,0.8);*/
+	width: 350px;
+	margin: 20px;
+	border-radius: 15px;
+
+
+	
+}
+.conteneur .ruche .imruche
+{
+	position: relative;
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	margin-left:32%;
+}
+.conteneur .ruche .imruche img
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	top:0px;
+	left: 0px;
+	/*object-fit: cover;*/
+	/*justify-content: center;*/
+	align-items: center;
+
+}
+
+ .texts p
+{
+	font-family: Bookman old style;/*berlin sans FB;*/
+	/*text-align: ;	*/
+	
+}
+.texts h3
+{
+	text-align: center;
+	font-family: forte;
+}
+.temoignage
+{
+	background-image: url(img/im18.jpg);
+	/*background-size: cover;*/
+}
+
+/*diapo de la page produit*/
+
+
+.main
+{
+	width: 80px;
+	margin:auto; 
+}
+
+.diapo
+{
+	position: relative;
+	overflow: hidden;
+}
+.elements
+{
+	display:flex; 
+}
+.element
+{
+	flex: 1 0 100%;
+	position: relative;
+	
+}
+.element img
+{
+	width: 100%;
+	/*width: 50%;
+	/*height:50%;*/
+	/*margin-left:30%;*/
+	/*margin-top:30%;*/
+
+}
+
+#nav-gauche,#nav-droite
+{
+	position: absolute;
+	top:50%;
+	transform:translateY(-50%); 
+	color: red;
+	font-size: 3rem;
+	cursor: pointer; 
+}
+#nav-droite
+{
+	right: 0;
+}
+
+footer
+{
+background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+footer
+{
+	background-color: yellow-orange;
+}*/
+
+
+
+/*page contacte*/
+section
+{
+
+	
+	align-items: center;
+	
+
+}
