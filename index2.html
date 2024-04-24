@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- <link rel="stylesheet" href="./bootstrap/bootstrap/css/bootstrap.min.css"> -->
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet"> -->
+    <title>Accueil</title>
+</head>
+<body  style="background-image: url('img/banniere2.jpg');background-size: cover;">
+    <nav class="navbar navbar-expand-lg  bg-white" data-bs-theme="dark" style="opacity: 0.5;">
+        <div class="container-fluid">
+          <img src="img/logo2.png" alt="">
+          <a class="navbar-brand" style="color: black;font-weight: 700;" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" style="color: black;font-weight: 700;" href="#accueil"><span class="text-warning " style="font-weight: 700;">A</span>ccueil
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: black;font-weight: 700;" href="#apropos"><span class="text-warning " style="font-weight: 700;">A </span>propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: black;font-weight: 700;" href="#temoignage"><span class="text-warning " style="font-weight: 700;">T</span>emoignage</a>
+              </li>
+
+              <select class="text-warning" id="lien" name="lien" onchange="window.location.href=this.value">
+                  <option value="produits2.html#Boissons">Nos produits</option> 
+                  <option value="produits2.html#Boissons">Boissons</option> 
+                  <option value="produits2.html#Ruche">Ruche</option> 
+                  <option value="produits2.html#Soinspersonnels">Soins personnels</option>
+              </select>
+              <select class="text-warning" id="info" name="info" onchange="window.location.href=this.value">
+                  <option value="contact2.html#Contact">Contact</option> 
+                  <option value="contact2.html#Contact">contact</option> 
+                  <option value="contact2.html#Partenaire">Devenir partenaire</option> 
+              
+              </select>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-sm-2" type="search" placeholder="Search">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    
+    
+            <div class=" car col-md-10 mx-auto g-4" style="display: flex; margin-top: 160px;" >
+              <!-- col-md-10 -->
+              <div class="card-body text-center text-whith " >
+                <h1 class="card-title" id="accueil"><span class="text-warning ;font-weight: 700 ">A</span>ccueil </h1>
+                <p style="font-style: italic;font-size: 20px; font-weight: 700;">Votre <br>Bien Etre <br> En un seul endroit.</p>
+              </div>
+              <!-- <div class="col-md-6"> -->
+                <img src="img/apropo.jpg" class="img-fluid  rounded-start col-md-4"   alt="...">
+              <!-- </div> -->
+              <!-- style="margin-left: 110px; " -->
+            </div>
+      
+
+        <div class="card  border-0" style="margin-top: 160px;">
+          <div class="row g-4 ">
+            <!-- row g-0 -->
+            <div class="col-md-4 ">
+              <img src="img/banniere4.jpg" class="img-fluid  rounded-start" alt="...">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h1 class="card-title" id="apropos"><span class="text-warning ;font-weight: 700">A</span> propos </h1>
+                <p><strong>Rex Maughan</strong>,fondateur de <strong> Forever Living Products</strong>,souhaitait promouvoir le bien-etre pour tous.
+                En 1978,il crée <strong> Forever Living Products</strong> et lance une gamme de produits issus de l'Aloe vera,plante médicinale d'une richesse nutritionnelle incomparable.
+                L'entreprise rencontre un véritable succès grâce à l'expertise de ses chercheurs et àla grand qualité de ses produits.
+                Aujoud'hui <strong> Forever Living Products</strong> est l'une des plus grandes entreprise de vente directe dans plus de 160 pays avec un réseau dynamique de plus de 9,5 millons de distributeurs Entrepreneurs</p>
+
+                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+    <h1 class="text-center " style="margin-top:100px;" id="temoignage">Temoi<span class="text-warning ;font-weight: 700" >G</span>nage</h1>
+    <section id="packages"  class="pt-md-5">
+      
+      <div class="container">
+       
+        <div class="row gy-4">
+          <div class="col-md-3">
+            <div class="" style="border: 1px blue;">
+               <img src="img/b1.png" class="mx-auto d-block w-50 rounded-circle" alt="">
+                <h4 class="text-center">thea</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing 
+                    elit. Deserunt, velit nesciunt cum ipsam cumque id 
+                    cupiditate! Labore nihil doloremque sit neque earum. 
+                    Optio aliquid tempora sunt culpa laboriosam quos nisi. 
+                </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="">
+               <img src="img/b4.jpg"  class="mx-auto d-block w-50 rounded-circle" alt="">
+                <h4 class="text-center">Pomesteen</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing 
+                    elit. Deserunt, velit nesciunt cum ipsam cumque id 
+                    cupiditate! Labore nihil doloremque sit neque earum. 
+                    Optio aliquid tempora sunt culpa laboriosam quos nisi. 
+                </p>
+            </div>
+          </div>
+          <div class="col-md-3" style="border: none;">
+            <div class="">
+               <img src="img/b2.jpg" class="mx-auto d-block w-50 rounded-circle" alt="">
+                <h4 class="text-center">Freedom</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing 
+                    elit. Deserunt, velit nesciunt cum ipsam cumque id 
+                    cupiditate! Labore nihil doloremque sit neque earum. 
+                    Optio aliquid tempora sunt culpa laboriosam quos nisi. 
+                </p>
+            </div>
+          </div>
+          <div class="col-md-3" style="border: none;">
+            <div class="">
+               <img src="img/b6.jpg" class="mx-auto d-block w-50 rounded-circle" alt="">
+                <h4 class="text-center">Pomesteen</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing 
+                    elit. Deserunt, velit nesciunt cum ipsam cumque id 
+                    cupiditate! Labore nihil doloremque sit neque earum. 
+                    Optio aliquid tempora sunt culpa laboriosam quos nisi. 
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    </body>
+</html>
